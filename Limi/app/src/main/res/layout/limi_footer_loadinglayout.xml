@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:id="@+id/fl_inner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:gravity="center">
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_marginRight="@dimen/common_item_small_padding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:id="@+id/pull_to_refresh_prepared"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bg_pull_arrow" />
+            <ImageView
+                android:visibility="gone"
+                android:layout_centerInParent="true"
+                android:id="@+id/pull_to_refresh_success"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_check_refresh_success" />
+            <ProgressBar
+                android:indeterminateDrawable="@drawable/progressbar"
+                android:indeterminate="false"
+                android:visibility="gone"
+                android:layout_centerInParent="true"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:id="@+id/pull_to_refresh_refreshing"/>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <!--<TextView-->
+                <!--android:id="@+id/pull_to_refresh_text"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:singleLine="true"-->
+                <!--android:text="让购物更便捷"-->
+                <!--android:textColor="#5b5b5b"-->
+                <!--android:textAppearance="?android:attr/textAppearance" />-->
+
+            <TextView
+                android:id="@+id/pull_to_refresh_sub_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="下拉刷新"
+                android:textColor="#5b5b5b"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</merge>

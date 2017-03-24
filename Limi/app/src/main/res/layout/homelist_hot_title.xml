@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_item_cat"
+        android:layout_marginLeft="@dimen/common_item_padding_Left"
+        android:layout_marginTop="@dimen/common_item_mediu_padding"
+        android:textColor="@color/color_black66"
+        android:textSize="@dimen/font_size_normal"
+        android:text="@string/home_trust_recommed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

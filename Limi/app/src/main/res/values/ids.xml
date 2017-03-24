@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="highest_rebate" type="id">佣金最高</item>
+    <item name="rv_home" type="id"></item>
+    <item name="custom_text" type="id"></item>
+    <item name="rv_home_sub" type="id"></item>
+    <item name="rv_products_sub" type="id"></item>
+    <item name="rv_customers_mine" type="id"></item>
+</resources>

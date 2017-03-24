@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_centerInParent="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="@dimen/search_item_padding"
+    android:paddingLeft="@dimen/search_item_padding"
+    android:paddingTop="@dimen/search_item_padding"
+    android:paddingBottom="@dimen/search_item_padding"
+    >
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_product_filter_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/search_condition_item_height"
+        android:textColor="@drawable/ic_product_tab_selector"
+        android:background="@drawable/filter_item_selector"
+        android:textSize="@dimen/font_size_small"/>
+
+
+</RelativeLayout>

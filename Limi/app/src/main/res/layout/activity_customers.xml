@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.limi88.financialplanner.ui.customers.CustomersActivity">
+
+    <LinearLayout
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <include layout="@layout/common_header"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/product_tab_padding"
+            android:paddingLeft="@dimen/common_item_mediu_padding"
+            android:paddingRight="@dimen/common_item_mediu_padding"
+            android:paddingTop="@dimen/product_tab_padding">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.ogaclejapan.smarttablayout.SmartTabLayout
+                    android:id="@+id/viewpagertab"
+                    app:stl_defaultTabTextColor="@color/color_blue100"
+                    app:stl_defaultTabTextHorizontalPadding="24dp"
+                    app:stl_defaultTabTextMinWidth="120dp"
+                    app:stl_distributeEvenly="true"
+                    app:stl_dividerColor="@color/transparent"
+                    app:stl_indicatorColor="@color/color_blue100"
+                    app:stl_indicatorInterpolation="linear"
+                    app:stl_indicatorThickness="3dp"
+                    app:stl_underlineThickness="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/tab_height"
+                    android:layout_centerInParent="true"
+                    android:background="@color/color_white"
+                    android:foregroundGravity="center"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <com.limi88.financialplanner.ui.widget.BaseBottomTab
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottomtab"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="150px"/>
+
+</RelativeLayout>

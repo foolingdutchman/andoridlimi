@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.limi88.financialplanner.ui.customers.NewCustomersActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_common_background"
+        android:orientation="vertical">
+
+        <include layout="@layout/common_header"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_add_customer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/search_condition_tab_height"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorPrimary"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_delete"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_new_customer_delet_bg"
+                    android:text="删除"
+                    android:textColor="@color/color_black66"
+                    android:textSize="@dimen/font_size_normal"/>
+
+                <Button
+                    android:id="@+id/btn_new_confirm"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_new_customer_confirm_bg"
+                    android:text="保存"
+                    android:textColor="@color/color_white"
+                    android:textSize="@dimen/font_size_normal"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/rl_guide_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/guide_font_color"
+        android:textSize="38dp"/>
+
+    <TextView
+        android:id="@+id/tv_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:gravity="center"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text=""
+        android:textColor="@color/guide_font_color"
+        android:textSize="@dimen/font_size_normal"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="78dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:clickable="true"
+            android:id="@+id/btn_open_app"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:background="@mipmap/ic_guide_startv2"
+            android:text=""
+            android:textColor="@color/color_white"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:scaleType="centerInside"
+        android:layout_above="@id/ll_btn"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="@dimen/y39"
+        android:id="@+id/iv_guide_page"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/bg_guide_4v2"
+        />
+
+</RelativeLayout>

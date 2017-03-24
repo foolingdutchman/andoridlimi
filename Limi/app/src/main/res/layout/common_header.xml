@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/rl_titleView"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:background="@color/colorPremaryBlue"
+                android:focusable="true"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPremaryBlue"
+        android:gravity="center_vertical"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rl_commonTab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_left_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center_vertical"
+                android:onClick="backPre"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                >
+
+                <ImageView
+                    android:id="@+id/common_left_action"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/ic_login_back"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_header_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/ll_left_btn"
+                android:ellipsize="none"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:maxEms="9"
+                android:text=""
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/font_size_normal"/>
+
+
+
+            <cn.bingoogolapple.badgeview.BGABadgeRelativeLayout
+                android:id="@+id/badgeView"
+                android:layout_alignParentRight="true"
+                android:layout_height="match_parent"
+                android:layout_marginRight="21dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                app:badge_gravity="rightTop">
+                <ImageView
+                    android:id="@+id/common_right_action"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:src="@mipmap/ic_right_action"
+                    android:visibility="gone"/>
+            </cn.bingoogolapple.badgeview.BGABadgeRelativeLayout>
+
+            <TextView
+                android:id="@+id/common_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:maxLength="15"
+                android:text=""
+                android:textColor="@color/color_white"
+                android:textSize="18dp"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/border"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="63.5dp"
+        android:background="@color/color_for_nav_title_border">
+    </RelativeLayout>
+</RelativeLayout>

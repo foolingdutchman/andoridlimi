@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="fragment_mine_profile_height">200dp</dimen>
+    <dimen name="fragment_me_icon_height">68dp</dimen>
+    <dimen name="fragment_me_icon_width">68dp</dimen>
+
+    <dimen name="home_header_height">200dp</dimen>
+    <dimen name="common_item_padding_Left">25dp</dimen>
+
+
+    <dimen name="font_size_super_small">10sp</dimen>
+    <dimen name="font_size_normal">17sp</dimen>
+    <dimen name="font_size_medium">14sp</dimen>
+    <dimen name="font_size_small">12sp</dimen>
+    <dimen name="font_size_big">20sp</dimen>
+    <dimen name="font_size_extreme">26sp</dimen>
+
+    <dimen name="home_trust_item_height">180dp</dimen>
+    <dimen name="home_banner_item_height">@dimen/x150</dimen>
+    <dimen name="common_item_mediu_padding">11dp</dimen>
+    <dimen name="common_item_small_padding_width">@dimen/x5</dimen>
+    <dimen name="common_item_small_padding_height">@dimen/y5</dimen>
+    <dimen name="common_ic_item_height">16dp</dimen>
+    <dimen name="common_ic_item_weight">16dp</dimen>
+    <dimen name="trust_item_padding_Left">9dp</dimen>
+    <dimen name="big_ic_item_weight">40dp</dimen>
+    <dimen name="big_ic_item_height">40dp</dimen>
+    <dimen name="fab_margin">71dp</dimen>
+    <dimen name="tab_height">37dp</dimen>
+    <dimen name="search_width">22dp</dimen>
+    <dimen name="product_tab_padding">9dp</dimen>
+    <dimen name="product_filter_padding">8dp</dimen>
+    <dimen name="search_condition_tab_height">52dp</dimen>
+    <dimen name="fab_margin_left">20dp</dimen>
+    <dimen name="fab_margin_bottom">20dp</dimen>
+    <dimen name="search_item_padding">8dp</dimen>
+    <dimen name="search_condition_item_height">34dp</dimen>
+    <dimen name="search_tab_paddingRight">20dp</dimen>
+    <dimen name="search_item_cancel_weight">10dp</dimen>
+    <dimen name="search_item_cancel_height">10dp</dimen>
+    <dimen name="product_level_tag_width">33dp</dimen>
+    <dimen name="product_level_tag_height">24dp</dimen>
+    <dimen name="product_area_padding_right">63dp</dimen>
+    <dimen name="ic_clients_width">36dp</dimen>
+    <dimen name="client_item_padding">4dp</dimen>
+    <dimen name="ic_add_padding">14dp</dimen>
+    <dimen name="me_profile_signature_height">129dp</dimen>
+    <dimen name="me_profile_gallary_height">158dp</dimen>
+    <dimen name="login_logo_height">@dimen/y70</dimen>
+    <dimen name="login_logo_bottom_margin">@dimen/y10</dimen>
+    <dimen name="login_horizental_padding">26dp</dimen>
+    <dimen name="common_item_small_padding">5dp</dimen>
+
+
+</resources>

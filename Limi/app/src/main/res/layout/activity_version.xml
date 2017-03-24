@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_bg"
+    android:gravity="center_horizontal"
+    tools:context="com.limi88.financialplanner.ui.mine.VersionActivity">
+
+    <include layout="@layout/common_header"/>
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="91dp"
+        android:src="@drawable/ic_limi_logo"/>
+
+    <TextView
+        android:id="@+id/tv_version_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="理米 V2.6.02"
+        android:textColor="@color/color_gray"/>
+
+    <LinearLayout
+        android:id="@+id/ll_download"
+        android:clickable="true"
+        android:onClick="download"
+        android:background="@color/color_white"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/tv_version_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <cn.bingoogolapple.badgeview.BGABadgeLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <cn.bingoogolapple.badgeview.BGABadgeFrameLayout
+                android:id="@+id/icon_badgeView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                app:badge_dragable="true"
+                app:badge_gravity="rightTop">
+
+                <ImageView
+                    android:id="@+id/iv_item_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"/>
+            </cn.bingoogolapple.badgeview.BGABadgeFrameLayout>
+
+
+        </cn.bingoogolapple.badgeview.BGABadgeLinearLayout>
+
+
+        <TextView
+            android:text="版本更新"
+            android:id="@+id/tv_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"/>
+
+        <ImageView
+            android:id="@+id/iv_item_badge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_item_status"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/font_color_suggestion"
+            android:textSize="13sp"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/progressbar"
+            android:visibility="gone"/>
+
+        <cn.bingoogolapple.badgeview.BGABadgeLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <cn.bingoogolapple.badgeview.BGABadgeFrameLayout
+                android:id="@+id/badgeView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="15dp"
+                app:badge_dragable="false"
+                app:badge_gravity="rightCenter">
+
+                <TextView
+                    android:id="@+id/tv_version"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter"/>
+            </cn.bingoogolapple.badgeview.BGABadgeFrameLayout>
+
+
+        </cn.bingoogolapple.badgeview.BGABadgeLinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home_title_array">
+        <item>@string/home_title_home</item>
+        <item>@string/home_title_products</item>
+        <item>@string/home_title_clients</item>
+        <item>@string/home_title_mine</item>
+    </string-array>
+
+    <string-array name="home_tab_array">
+        <item>理米</item>
+        <item>@string/home_title_products</item>
+        <item>@string/home_title_clients</item>
+        <item>@string/home_title_mine</item>
+    </string-array>
+    <string-array name="home_sub_tab_array">
+        <item>最热资讯</item>
+        <item>开门红</item>
+        <item>养老无忧</item>
+        <item>同行说</item>
+    </string-array>
+    <string-array name="mine_selections_array">
+        <item>@string/mine_item_financer</item>
+        <!--<item>@string/mine_item_news</item>-->
+        <item>@string/mine_item_topics</item>
+        <!--<item>@string/mine_item_namecard</item>-->
+        <!--<item>@string/mine_item_favor</item>-->
+        <item>@string/mine_item_laws</item>
+        <!--<item>@string/mine_item_setting</item>-->
+        <item>@string/mine_item_feedback</item>
+        <item>@string/mine_item_update</item>
+    </string-array>
+    <string-array name="home_calculators_array">
+        <item>@string/home_calculators_retired</item>
+        <item>@string/home_calculators_education</item>
+        <item>@string/home_calculators_customer</item>
+        <item>@string/home_calculators_rewards</item>
+        <item>@string/home_calculators_mycard</item>
+    </string-array>
+    <string-array name="product_type_array">
+        <!--<item>@string/product_typename_trust</item>-->
+        <!--<item>@string/product_typename_assetmanagment</item>-->
+        <!--<item>@string/product_typename_bond</item>-->
+        <!--<item>@string/product_typename_security</item>-->
+        <!--<item>@string/product_typename_equity</item>-->
+        <!--<item>@string/product_typename_innovation</item>-->
+        <item>@string/product_typename_issurance</item>
+    </string-array>
+    <string-array name="product_path_array">
+        <!--<item>@string/trusts</item>-->
+        <!--<item>@string/asset_managements</item>-->
+        <!--<item>@string/bond_funds</item>-->
+        <!--<item>@string/security_funds</item>-->
+        <!--<item>@string/equity_funds</item>-->
+        <!--<item>@string/innovation_funds</item>-->
+        <item>@string/insurances</item>
+    </string-array>
+    <string-array name="product_search_condition_array">
+        <item>@string/status</item>
+        <item>@string/level</item>
+        <item>@string/bond_funds</item>
+        <item>@string/security_funds</item>
+        <item>@string/equity_funds</item>
+        <item>@string/innovation_funds</item>
+        <item>@string/insurances</item>
+    </string-array>
+    <string-array name="produt_sort_trusts">
+        <item>@string/product_sort_default</item>
+        <item>@string/product_sort_rebate</item>
+        <item>@string/product_sort_reward</item>
+        <item>@string/product_sort_grade</item>
+        <item>@string/product_sort_garuantee</item>
+    </string-array>
+    <string-array name="produt_sort_bond">
+        <item>@string/product_sort_default</item>
+        <item>@string/product_sort_rebate</item>
+        <item>@string/product_sort_grade</item>
+    </string-array>
+    <string-array name="produt_sort_insurance">
+        <item>@string/product_sort_default</item>
+        <item>@string/product_rebate_high_to_low</item>
+        <item>@string/product_rebate_low_to_high</item>
+    </string-array>
+    <string-array name="customers_page_name_array">
+        <item>@string/customers_page_mine</item>
+        <item>@string/customers_page_remind</item>
+    </string-array>
+
+    <string-array name="guide_title_array">
+
+        <item>一键生成规划报告</item>
+        <item>个性化客户管理</item>
+        <item>一站式资产配置</item>
+        <item>海量课程</item>
+
+    </string-array>
+    <string-array name="guide_hint_array">
+        <item>养老规划，子女教育规划，投资规划等</item>
+        <item>全方位客户管理，跟踪式贴身服务做最优秀的财富管理</item>
+        <item>保险产品、公募基金，一站式完成资产配置</item>
+        <item>名师大咖教你快速增员，快速签单</item>
+    </string-array>
+    <string-array name="tools_array">
+        <item>退休规划</item>
+        <item>规划</item>
+        <item>保单收益率</item>
+        <item>风险测评</item>
+        <item>保险规划</item>
+        <item>社保计算</item>
+        <item>微信名片</item>
+    </string-array>
+
+    <string-array name="province_array">
+        <item>北京市</item>
+        <item>上海市</item>
+        <item>天津市</item>
+        <item>重庆市</item>
+        <item>河北省</item>
+        <item>山西省</item>
+        <item>吉林省</item>
+        <item>辽宁省</item>
+        <item>黑龙江省</item>
+        <item>陕西省</item>
+        <item>甘肃省</item>
+        <item>青海省</item>
+        <item>山东省</item>
+        <item>福建省</item>
+        <item>浙江省</item>
+        <item>台湾省</item>
+        <item>河南省</item>
+        <item>湖北省</item>
+        <item>湖南省</item>
+        <item>江西省</item>
+        <item>江苏省</item>
+        <item>安徽省</item>
+        <item>广东省</item>
+        <item>海南省</item>
+        <item>四川省</item>
+        <item>贵州省</item>
+        <item>云南省</item>
+        <item>内蒙古自治区</item>
+        <item>新疆维吾尔自治区</item>
+        <item>宁夏回族自治区</item>
+        <item>广西壮族自治区</item>
+        <item>西藏自治区</item>
+        <item>香港特别行政区</item>
+        <item>澳门特别行政区</item>
+    </string-array>
+    <string-array name="home_sub_path_array">
+        <item>hot</item>
+        <item>kaimenhong</item>
+        <item>yanglaowuyou</item>
+        <item>topics</item>
+    </string-array>
+
+
+</resources>

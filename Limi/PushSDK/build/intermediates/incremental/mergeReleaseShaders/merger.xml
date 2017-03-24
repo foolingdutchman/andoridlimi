@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/hehao/Downloads/android/Limi/PushSDK/src/main/shaders"/></dataSet><dataSet config="release"><source path="/Users/hehao/Downloads/android/Limi/PushSDK/build-types/release/shaders"/></dataSet></merger>

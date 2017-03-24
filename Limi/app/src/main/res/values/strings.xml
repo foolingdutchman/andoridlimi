@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">理米理财师</string>
+    <string name="home_title_home">理米理财规划师</string>
+    <string name="home_title_products">产品库</string>
+    <string name="home_title_clients">客户</string>
+    <string name="home_title_mine">我</string>
+
+    <string name="mine_item_financer">理财师认证</string>
+    <string name="mine_item_namecard">我的名片</string>
+    <string name="mine_item_news">我的消息</string>
+    <string name="mine_item_topics">我的话题</string>
+    <string name="mine_item_favor">我的收藏</string>
+    <string name="mine_item_laws">用户使用协议</string>
+    <string name="mine_item_feedback">意见反馈</string>
+    <string name="mine_item_update">版本更新</string>
+
+    <string name="mobile_text_error">手机号码格式不正确</string>
+    <string name="code_text_blank">验证码不能为空</string>
+    <string name="code_text_error">验证码错误</string>
+    <string name="password">验证码</string>
+    <string name="register">注册</string>
+    <string name="mobile">手机号</string>
+    <string name="mobile_hint">请输入您的手机号码</string>
+    <string name="password_hint">请输入6位验证码</string>
+    <string name="login">登录/注册</string>
+
+    <string name="birthday_error">出生日期不能大于当前日期</string>
+
+    <string name="home_calculators_retired">退休规划</string>
+    <string name="home_calculators_education">教育规划</string>
+    <string name="home_calculators_customer">风险测评</string>
+    <string name="home_calculators_rewards">收益率测评</string>
+    <string name="home_calculators_mycard">我的名片</string>
+    <string name="home_trust_recommed">热门推荐</string>
+    <string name="min_start_money">起投金额</string>
+    <string name="period_desc">投资周期</string>
+    <string name="non_level">无评级</string>
+    <string name="tag_total_package">总包</string>
+    <string name="status_hot">预热</string>
+    <string name="mortgage_rate_none">0%</string>
+    <string name="fund_min_munber">起投金额</string>
+    <string name="product_type_trust">Trust</string>
+    <string name="product_type_assetmanagment">AssetManagement</string>
+    <string name="product_type_issurance">Insurance</string>
+    <string name="product_type_security">SecurityFund</string>
+    <string name="product_type_bond">BondFund</string>
+    <string name="product_type_equity">EquityFund</string>
+    <string name="product_type_innovation">InnovationFund</string>
+    <string name="expect_reward">预期收益</string>
+    <string name="product_reward_perc">佣金比例</string>
+    <string name="title_activity_authentication">AuthenticationActivity</string>
+    <string name="product_typename_trust">集合信托</string>
+    <string name="product_typename_assetmanagment">集合资管</string>
+    <string name="product_typename_bond">债权基金</string>
+    <string name="product_typename_security">证券基金</string>
+    <string name="product_typename_equity">股权基金</string>
+    <string name="product_typename_innovation">创新基金</string>
+    <string name="product_fund_mananger">基金经理</string>
+    <string name="common_hint_load">登录可见</string>
+    <string name="expect_fore_rebate">前端佣金</string>
+    <string name="expect_back_rebate">后端佣金</string>
+    <string name="product_period_limit">投资期限</string>
+    <string name="product_typename_issurance">保险产品</string>
+    <string name="product_issurance_max_rebate">最高返佣比例</string>
+    <string name="common_hint_auth">认证可见</string>
+
+
+    <string name="asset_managements">asset_managements</string>
+    <string name="bond_funds">bond_funds</string>
+    <string name="security_funds">security_funds</string>
+    <string name="innovation_funds">innovation_funds</string>
+    <string name="equity_funds">equity_funds</string>
+    <string name="insurances">insurances</string>
+    <string name="search">search</string>
+    <string name="trusts">trusts</string>
+
+    <string name="status">产品状态</string>
+    <string name="expect_rate">收益率</string>
+    <string name="period">产品期限</string>
+    <string name="invest_area">投资领域</string>
+    <string name="invest_city">付息方式</string>
+    <string name="level">产品状态</string>
+    <string name="distribute_type">产品状态</string>
+    <string name="rebate_percent">产品状态</string>
+    <string name="distribute_big_small">产品状态</string>
+    <string name="mortgage_rate">产品状态</string>
+    <string name="product_sort_default">默认排序</string>
+    <string name="product_sort_rebate">佣金最高</string>
+    <string name="product_sort_reward">收益最高</string>
+    <string name="product_sort_grade">评级最优</string>
+    <string name="product_rebate_high_to_low">返佣比例从高到低排列</string>
+    <string name="product_rebate_low_to_high">返佣比例从低到高排列</string>
+    <string name="product_sort_garuantee">抵/质押率最优</string>
+    <string name="search_input_hint">请输入产品名称</string>
+    <string name="search_no_result">无搜索结果</string>
+    <string name="search_cancel">取消</string>
+    <string name="search_condition_all">全部</string>
+    <string name="home_title_my_favor">我的收藏</string>
+
+
+    <string name="customers_page_remind">生日提醒</string>
+    <string name="customers_page_mine">我的客户</string>
+    <string name="highest_rebate">佣金最高</string>
+    <string name="province_pick">地区列表</string>
+    <string name="costumer_add_tag">添加标签</string>
+    <string name="customer_new_customer">添加客户</string>
+    <string name="customer_edit_customer">编辑客户</string>
+    <string name="customers_add_tag">添加标签</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="app_title">理 米 理 财 规 划 师</string>
+
+    <string name="prag1">一、理米平台和服务</string>
+    <string name="prag2">二、用户的义务及承诺</string>
+    <string name="prag3">三、违约责任</string>
+    <string name="prag4">四、服务中断或故障</string>
+    <string name="prag5">五、其他约定</string>
+    <string name="content11">1. 宁波财果网络科技有限公司通过其合法运营的微信公众号“理米理财规划师“或网站limi88.com及其已经开发及将来不时开发的实现部分或全部功能的移动终端软件APP（本文统称“理米平台”）依据本协议为注册认证用户提供服务。在本协议中，在成为理米平台用户前，您务必仔细阅读以下条款，充分理解各条款内容后再选择是否接受本协议。一旦您在理米平台提交用户注册（注册的定义为通过微信授权登录，手机注册，帐号密码注册等用户允许的在理米平台数据库中存留唯一用户识别编号的行为）申请，即意味着您已阅读本协议所有条款，并对本协议条款的含义及相应的法律后果已全部通晓并充分理解，同意受本协议约束。</string>
+    <string name="content12">2. 理米平台运用互联网技术，让理财师能够快速找到匹配客户需求的优质金融产品，真正为客户量身定制资产配置方案的同时，帮助理财师轻松实现自身成长和职业价值。</string>
+    <string name="content13">3. 平台依托实力雄厚的技术研发和金融研究团队，创新研发了一套体系化的服务模式，为金融从业人员，提供从业过程中包括自身宣传、客户管理、目标规划、财务诊断、风险测评、资产配置、金融资讯、学习提升全方位的 解决方案。</string>
+    <string name="content14">4. 理米平台有权根据需要不时地制订、修改本协议及/或各类规则，并以网站公示的方式进行公告，不再单独通知您。变更后的协议和规则一经在网站公布后，立即自动生效。如您不同意相关变更，应当立即停止使用理米平台。您继续使用服务的，即表示您接受经修订的协议和规则。</string>
+    <string name="content21">1. 使用理米平台提供的服务，以您申请成为认证理财师为前提条件。您向平台提供的所有信息均须真实准确，不得以虚假身份或不实信息（包括不局限于居民身份，公司及机构身份）进行申请；若用户的个人资料有任何变动，您应及时更新。</string>
+    <string name="content22">2. 理米平台是一个向用户提供金融工具及信息服务的平台，您须自行对理米平台的使用行为承担责任。在使用理米平台（包括但不限于发表言论、参与理米平台组织的各项活动）时应遵守下述约定：</string>
+    <string name="content221">1)	符合国家现行法律、行政法规及政府规章、行业秩序、道德风尚的要求；</string>
+    <string name="content222">2)	在理米平台上发表的言论应符合监管部门的要求，仅供客户参考，不得作出绝对的、确定性的判断；</string>
+    <string name="content223">3)	不得代替客户作出交易决策，不得承诺收益；不得代理客户从事实盘交易，与客户约定分享投资收益或分担损失； 使用时充分知晓交易风险，如借助理米平台与您的客户达成的交易均属您个人行为，如造成您客户的损失，需自行承担相关责任。</string>
+    <string name="content224">4)	不得通过借助理米平台发表煽动性言论操纵市场或者进行内幕交易、利益输送，同时不得有平台认定的其他严重违规行为。一经发现有上述行为的，平台将采取、删除、冻结乃至永久性取消管理后台使用权限等处理手段。</string>
+    <string name="content225">5)	您保证在接到客户的投诉后，积极妥善处理。您与客户的一切纠纷，均与理米理财规划师平台经营者无关。</string>
+    <string name="content23">3. 如用户违反前述几条之约定，依据相关法律、法规及国家政策要求，理米平台有权随时采取不予认证、通知限期改正、取消认证、删除您在平台上发布的言论、中止或终止向您提供服务等措施。以上措施的选择、适用不以事前通知您为前提，若您对上述处理方式存在异议，可通过客服人员向理米理财规划师平台提出。</string>
+    <string name="content24">4. 任何使用您的账号所进行的操作，都视为您本人所为。为此提请您保管好个人的理财师平台账号、密码，不得转让或出借予他人使用。如您发现帐号遭他人非法使用，应立即通知理米平台。因黑客行为或您的保管疏忽导致帐号、密码及理财师服务遭他人非法使用的，理米平台不承担任何责任。</string>
+    <string name="content25">5. 通过理米平台发布的任何信息和任何观点，均为您的个人行为，不代表理米平台之立场，平台亦不对其完整性、真实性、准确性或可靠性进行担保或负责。您的言论应对客户造成损失的，您应自行与客户协商或通过司法途径解决处理，与平台无涉；由此给理米平台造成损失的，应向平台承担损害赔偿责任。</string>
+    <string name="content3">您未按本协议约定履行其义务，出现违反上述条款之一的，理米平台经营者有权终止合作。情节严重的，理米平台经营者有权单方终止本协议并有权要求您承担违约责任。</string>
+    <string name="content4">作为技术服务提供者，理米平台将建立健全技术保障制度，落实技术安全防控措施。鉴于网络服务的特殊性（包括但不限于服务器的稳定性问题、恶意的网络攻击等行为的存在及其他理财师平台无法控制的情形），因无法预测或无法控制的设备故障、通讯故障、网络故障等技术原因以及其它不可抗力而造成平台服务中断的情况，平台不承担责任。用户同意理米平台有权随时中断或终止部分或全部的服务，若发生该等中断或中止服务的情形，平台将尽可能及时通过网页公告、系统通知、私信、短信提醒或其他合理方式通知受到影响的用户。</string>
+    <string name="content51">1. 本协议的订立、执行和解释及争议的解决均应适用中国法律并受中国法院管辖。</string>
+    <string name="content52">2. 如双方就本协议内容或其执行发生任何争议，双方应尽量友好协商解决；协商不成时，任何一方均可向理米平台所在地的人民法院提起诉讼。</string>
+    <string name="content53">3. 如本协议中的任何条款无论因何种原因完全或部分无效或不具有执行力，本协议的其余条款仍应有效并且有约束力。</string>
+    <string name="mobile_text_empty">请输入手机号</string>
+    <string name="notice_quit_app">再按一次退出理米</string>
+    <string name="send_auth_code">获得验证码</string>
+    <string name="umeng_key">57ea37bc67e58e4228001542</string>
+    <string name="me_favor">我的收藏</string>
+    <string name="me_card">我的名片</string>
+    <string name="skip_to_start">跳过</string>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="10dp"
+              android:background="@drawable/shape_bg_home_all_tool"
+              android:orientation="vertical"
+              android:paddingLeft="7dp"
+              android:paddingRight="7dp">
+
+    <TextView
+        android:text="理米规划"
+        android:id="@+id/tv_service_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:textColor="@color/color_blue100"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/dev_common_bottom_line"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_tools_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

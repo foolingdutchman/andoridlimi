@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlowLayout">
+        <attr name="tagBackgroundColor" format="color" />
+        <attr name="tagTextColor" format="color" />
+        <attr name="tagTextSize" format="dimension" />
+        <attr name="isDeletable" format="boolean" />
+        <attr name="deletableTextColor" format="color" />
+        <attr name="deletableTextSize" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="LevelMenuItem">
+        <attr name="text" format="string" />
+        <attr name="text_color" format="color"/>
+        <attr name="text_size" format="dimension" />
+        <attr name="image_src" format="reference"/>
+        <attr name="image_bg" format="reference"/>
+        <attr name="image_alpha" format="integer" />
+        <attr name="image_height" format="dimension"></attr>
+        <attr name="image_width" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="MarqueeViewStyle">
+        <attr name="mvInterval" format="integer|reference"/>
+        <attr name="mvAnimDuration" format="integer|reference"/>
+        <attr name="mvTextSize" format="dimension|reference"/>
+        <attr name="mvTextColor" format="color|reference"/>
+        <attr name="mvGravity">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

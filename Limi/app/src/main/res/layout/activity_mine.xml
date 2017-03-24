@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/root_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/common_header"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:background="@color/color_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/fragment_mine_profile_height">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_me_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginBottom="6dp"
+                        android:background="@mipmap/ic_me_bg">
+
+                        <ImageView
+                            android:id="@+id/iv_me_icon"
+                            android:layout_width="@dimen/fragment_me_icon_width"
+                            android:layout_height="@dimen/fragment_me_icon_height"
+                            android:layout_centerInParent="true"
+                            android:layout_margin="@dimen/common_item_small_padding"/>
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/rl_me_icon"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_me_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="未设置"/>
+
+                        <ImageView
+                            android:id="@+id/iv_me_2Dcode"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_marginLeft="4dp"
+                            android:background="@mipmap/ic_2dcode"/>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/rv_me_selections"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </android.support.v7.widget.RecyclerView>
+
+                <LinearLayout
+                    android:id="@+id/ll_logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/color_white"
+                    android:clickable="true"
+                    android:gravity="center">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="退出登录"/>
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="129dp">
+                </FrameLayout>
+            </LinearLayout>
+
+
+        </ScrollView>
+    </LinearLayout>
+
+    <com.limi88.financialplanner.ui.widget.BaseBottomTab
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottomtab"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="150px"/>
+
+</RelativeLayout>

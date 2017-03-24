@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginBottom="5dp"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <cn.bingoogolapple.badgeview.BGABadgeFrameLayout
+            android:id="@+id/icon_badgeView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:badge_dragable="true"
+            app:badge_gravity="rightTop">
+
+            <TextView
+                android:id="@+id/tv_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:gravity="center"
+                android:textColor="@drawable/main_title_selector"
+                android:textSize="@dimen/font_size_medium"
+                />
+        </cn.bingoogolapple.badgeview.BGABadgeFrameLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

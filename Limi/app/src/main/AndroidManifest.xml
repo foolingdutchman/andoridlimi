@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.limi88.financialplanner"
+          android:installLocation="preferExternal">
+
+    <uses-sdk android:minSdkVersion="4"/>
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.SET_DEBUG_APP"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <!-- 硬件加速对X5视频播放非常重要，建议开启 -->
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon, android:theme">
+
+        <!-- <meta-data -->
+        <!-- android:name="com.limi88.financialplanner.tool.CustomGlideModule" -->
+        <!-- android:value="GlideModule"/> -->
+        <meta-data
+            android:name="design_width"
+            android:value="1080"/>
+        <meta-data
+            android:name="design_height"
+            android:value="1920"/>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="57ea37bc67e58e4228001542">
+        </meta-data>
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="3232f3e86f6f010dec4920b4b8ccc85f">
+        </meta-data>
+        <!-- <meta-data -->
+        <!-- android:name="UMENG_CHANNEL" -->
+        <!-- android:value="${UMENG_CHANNEL_VALUE}"/> -->
+        <activity
+            android:name=".ui.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="UMENG_APPKEY"
+                android:value="57ea37bc67e58e4228001542"/>
+            <meta-data
+                android:name="UMENG_CHANNEL"
+                android:value="${UMENG_CHANNEL_VALUE}"/>
+        </activity>
+        <activity
+            android:name=".ui.splash.WelcomeActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="UMENG_APPKEY"
+                android:value="57ea37bc67e58e4228001542"/>
+            <meta-data
+                android:name="UMENG_CHANNEL"
+                android:value="${UMENG_CHANNEL_VALUE}"/>
+
+
+        </activity>
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="UMENG_APPKEY"
+                android:value="57ea37bc67e58e4228001542"/>
+            <meta-data
+                android:name="UMENG_CHANNEL"
+                android:value="${UMENG_CHANNEL_VALUE}"/>
+        </activity>
+        >
+        <activity
+            android:name=".ui.authentication.AuthenticationActivity"
+            android:label="@string/title_activity_authentication"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="UMENG_APPKEY"
+                android:value="57ea37bc67e58e4228001542"/>
+            <meta-data
+                android:name="UMENG_CHANNEL"
+                android:value="${UMENG_CHANNEL_VALUE}"/>
+        </activity>
+        >
+        <activity
+            android:name=".ui.base.BaseWebViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="UMENG_APPKEY"
+                android:value="57ea37bc67e58e4228001542"/>
+            <meta-data
+                android:name="UMENG_CHANNEL"
+                android:value="${UMENG_CHANNEL_VALUE}"/>
+
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <category android:name="android.intent.category.DEFAULT"/>
+
+            <action android:name="android.intent.action.VIEW"/>
+        </activity>
+        <activity
+            android:name="com.umeng.socialize.editorpage.ShareActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.UMDefault"/>
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+
+        <service android:name=".services.ReceiveMsgService"/>
+
+        <receiver
+            android:name="com.hehao.library.netstatus.NetStateReceiver"
+            android:label="NetworkConnection">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="com.github.obsessive.library.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".services.CompleteReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+                <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"/>
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".ui.mine.MineActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="UMENG_APPKEY"
+                android:value="57ea37bc67e58e4228001542"/>
+            <meta-data
+                android:name="UMENG_CHANNEL"
+                android:value="${UMENG_CHANNEL_VALUE}"/>
+        </activity>
+        <activity
+            android:name=".ui.mine.FeedbackActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="UMENG_APPKEY"
+                android:value="57ea37bc67e58e4228001542"/>
+            <meta-data
+                android:name="UMENG_CHANNEL"
+                android:value="${UMENG_CHANNEL_VALUE}"/>
+        </activity>
+        <activity
+            android:name=".ui.mine.MeProfileActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="UMENG_APPKEY"
+                android:value="57ea37bc67e58e4228001542"/>
+            <meta-data
+                android:name="UMENG_CHANNEL"
+                android:value="${UMENG_CHANNEL_VALUE}"/>
+        </activity>
+        <activity
+            android:name=".ui.customers.CustomersActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="UMENG_APPKEY"
+                android:value="57ea37bc67e58e4228001542"/>
+            <meta-data
+                android:name="UMENG_CHANNEL"
+                android:value="${UMENG_CHANNEL_VALUE}"/>
+        </activity>
+        <activity
+            android:name=".ui.customers.ProvincePickActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="UMENG_APPKEY"
+                android:value="57ea37bc67e58e4228001542"/>
+            <meta-data
+                android:name="UMENG_CHANNEL"
+                android:value="${UMENG_CHANNEL_VALUE}"/>
+        </activity>
+        <activity
+            android:name=".ui.customers.NewCustomersActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="UMENG_APPKEY"
+                android:value="57ea37bc67e58e4228001542"/>
+            <meta-data
+                android:name="UMENG_CHANNEL"
+                android:value="${UMENG_CHANNEL_VALUE}"/>
+        </activity>
+        <activity
+            android:name=".ui.customers.CustomerTagsActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="UMENG_APPKEY"
+                android:value="57ea37bc67e58e4228001542"/>
+            <meta-data
+                android:name="UMENG_CHANNEL"
+                android:value="${UMENG_CHANNEL_VALUE}"/>
+        </activity>
+        <activity
+            android:name=".ui.mine.LawActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ui.mine.VersionActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="UMENG_APPKEY"
+                android:value="57ea37bc67e58e4228001542"/>
+            <meta-data
+                android:name="UMENG_CHANNEL"
+                android:value="${UMENG_CHANNEL_VALUE}"/>
+        </activity>
+
+        <service
+            android:name=".services.PushService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":push">
+        </service>
+
+        <receiver
+            android:name=".services.NotificationReceiver"
+            android:process=":push"/>
+        <receiver
+            android:name=".services.ShowNotificationReceiver"
+            android:process=":push"/>
+
+
+        <activity
+            android:name=".ui.splash.PromotionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Start">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".ui.home.ImageGallaryActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ui.login.BindWXActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+    </application>
+
+</manifest>

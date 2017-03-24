@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F8F8F8</color>
+    <color name="colorPrimaryDark">#00000000</color>
+    <color name="colorAccent">#009DE9</color>
+    <color name="colorPremaryBlue">#009FEC</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_blue100">#009DE9</color>
+    <color name="color_blue_agreement">#B38AE0FF</color>
+    <color name="color_gray">#919191</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_white66">#88FFFFFF</color>
+    <color name="color_white40">#66000000</color>
+    <color name="color_black">#000000</color>
+    <color name="color_black66">#88000000</color>
+    <color name="color_black20">#33000000</color>
+    <color name="color_pale">#F9F9F9</color>
+    <color name="warnning_red">#D03202</color>
+
+    <color name="color_tag_red">#DB6859</color>
+    <color name="color_tag_yellow">#F4BE02</color>
+    <color name="color_tag_blue">#009DE9</color>
+    <color name="color_tag_purple">#6B86EB</color>
+    <color name="color_title">#575757</color>
+    <color name="color_for_nav_title">#343434</color>
+    <color name="color_for_nav_title_border">#B2B2B2</color>
+
+    <color name="defult_under_line">#D8D8D8</color>
+    <color name="font_color_suggestion">#DDDDDD</color>
+    <color name="border_color_suggestion">#DFDFDF</color>
+    <color name="toolbar_under_line">#D8D8D8</color>
+    <color name="main_title_color_nromal">#66000000</color>
+    <color name="main_title_color_select">#009FEC</color>
+    <color name="mdtp_accent_color">#009DE9</color>
+    <color name="mdtp_accent_color_dark">#009FEC</color>
+    <color name="translucent_white">#88FFFFFF</color>
+    <color name="login_font_color">#C8D2DE</color>
+    <color name="login_button_bg_non_select_color">#899FAA</color>
+    <color name="guide_yellow">#F2D11F</color>
+    <color name="guide_green">#20AFC5</color>
+    <color name="guide_purple">#7682B5</color>
+    <color name="guide_blue">#49B3E6</color>
+    <color name="color_button_blue100">#009FEC</color>
+    <color name="color_button_blue40">#66009FEC</color>
+    <color name="color_bg_no_network_hint">#cd000000</color>
+    <color name="guide_font_color">#555555</color>
+    <color name="tool_color_selected">#343434</color>
+    <color name="tool_color_non_selected">#B8BFC2</color>
+    <color name="me_color_non_authed">#B8BFC2</color>
+    <color name="color_common_background">#EFEFEF</color>
+    <color name="color_black80">#CC000000</color>
+    <color name="font_gray">#B8BFC2</color>
+    <color name="home_title_color_nromal">#B8BFC2</color>
+    <color name="home_title_color_select">#1F1F1F</color>
+    <color name="color_white60">#99FFFFFF</color>
+    <color name="color_white50">#50FFFFFF</color>
+    <color name="color_white70">#B3FFFFFF</color>
+    <color name="color_white80">#CDFFFFFF</color>
+
+
+</resources>

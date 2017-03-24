@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/home_bottom_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/rl_sub_tab"
+            android:background="@color/color_white"
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <com.ogaclejapan.smarttablayout.SmartTabLayout
+                    android:id="@+id/homepager_tab"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_white"
+                    app:stl_customTabTextLayoutId="@layout/home_sub_tab"
+                    app:stl_customTabTextViewId="@id/custom_text"
+                    app:stl_indicatorColor="@color/transparent"
+                    app:stl_indicatorInterpolation="linear"
+                    app:stl_indicatorThickness="0dp"
+                    app:stl_distributeEvenly="true"
+                    app:stl_dividerColor="@color/transparent"
+                    app:stl_underlineThickness="0dp"/>
+
+            </LinearLayout>
+            <ImageView
+                android:layout_alignParentTop="true"
+                android:src="@mipmap/dev_common_bottom_line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_alignParentBottom="true"
+                android:src="@mipmap/dev_common_bottom_line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_home_page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

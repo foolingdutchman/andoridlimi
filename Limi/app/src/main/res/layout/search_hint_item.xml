@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageView
+        android:src="@mipmap/ic_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"/>
+    <TextView
+        android:id="@+id/tv_history_item"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textSize="@dimen/font_size_medium"
+        android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:id="@+id/rl_delete"
+            android:clickable="true"
+            android:layout_width="50dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@mipmap/ic_cancel"
+                android:layout_centerInParent="true"
+                android:layout_width="@dimen/search_item_cancel_weight"
+                android:layout_height="@dimen/search_item_cancel_height"
+                android:layout_margin="@dimen/activity_vertical_margin"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/dev_common_bottom_line"/>
+
+</LinearLayout>

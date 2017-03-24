@@ -1,0 +1,205 @@
+{
+    "android_gradle_plugin_version": "2.1.0",
+    "apk_path": "/Users/hehao/Desktop/android/Limi/app/build/outputs/apk/limifinancialplanner-2-1.0.1-2016-12-06.apk",
+    "apt": {
+        "app": {
+            "aptArgs": [
+                
+            ],
+            "aptOutput": "/Users/hehao/Desktop/android/Limi/app/build/generated/source/apt/wandoujia/debug",
+            "disableDiscovery": false,
+            "enabled": true,
+            "processor": null,
+            "processorPath": "/Users/hehao/Desktop/android/Limi/app/src/main/libs/tbs_sdk_thirdapp_v2.3.0.1048_36801_sharewithdownload_obfs_20160829_200437.jar:/Users/hehao/Desktop/android/Limi/PushSDK/libs/com.umeng.message_v3.0.1.jar:/Users/hehao/Desktop/android/Limi/PushSDK/libs/utdid4all-1.1.5_proguard.jar:/Users/hehao/Desktop/android/Limi/app/src/main/libs/umeng_social_apiv6.0.0.jar:/Users/hehao/Desktop/android/Limi/app/src/main/libs/umeng_social_netv6.0.0.jar:/Users/hehao/Desktop/android/Limi/app/src/main/libs/umeng_social_viewv6.0.0.jar:/Users/hehao/Desktop/android/Limi/app/src/main/libs/SocialSDK_umengwx.jar:/Users/hehao/Desktop/android/Limi/app/src/main/libs/SocialSDK_WeiXin_2.jar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger-compiler/2.0.2/1170f75c1ce293f80755bbc9fcd60e0765022bd0/dagger-compiler-2.0.2.jar:/Users/hehao/Desktop/android/Limi/library/build/outputs/aar/library-release.aar:/Users/hehao/Library/Android/sdk/extras/android/m2repository/com/android/support/cardview-v7/23.3.0/cardview-v7-23.3.0.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.bartoszlipinski.recyclerviewheader/library/1.2.0/880dbe4a40da0cb69747d9cefc0f94f5ed0f0cd2/library-1.2.0.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.0.2/de8416eda7b2fd7c25836b140c39e1cbf10542f6/dagger-2.0.2.jar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.squareup/otto/1.3.8/cf615176cd1177edf71d3c9605f8dc148fede6be/otto-1.3.8.jar:/Users/hehao/.gradle/caches/modules-2/files-2.1/org.greenrobot/greendao/2.2.1/1aa64feab6440fff9a7fcfb1db1e6151d36d1254/greendao-2.2.1.jar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.squareup.sqlbrite/sqlbrite/0.5.0/3a28832c0e683af0af70fd9b7cd802eda8137f39/sqlbrite-0.5.0.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/io.reactivex/rxandroid/1.1.0/70751512690d3c21f2a03717f9e831fc09f60117/rxandroid-1.1.0.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/jp.wasabeef/glide-transformations/2.0.1/2edd9f5dd1ae0d37bb8278607e933721d422ca58/glide-transformations-2.0.1.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/jp.co.cyberagent.android.gpuimage/gpuimage-library/1.3.0/e2e1ca1fbb73283fbc84a0d0b0e3e982d288c658/gpuimage-library-1.3.0.jar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/693eddc23e87ab13f9cf5001707ce8e7e1d1ff01/adapter-rxjava-2.1.0.jar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.0.1/1d232df84491c0453e077002509911301109409d/logging-interceptor-3.0.1.jar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.bigkoo/svprogresshud/1.0.6/4dfbd257836ee4155746a8f78a45a582eebc6666/svprogresshud-1.0.6.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.yqritc/recyclerview-flexibledivider/1.2.9/88ee7243825c2084b01b14565c4a3729e742fcc7/recyclerview-flexibledivider-1.2.9.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.github.afollestad.material-dialogs/core/0.8.5.8/b4d41fdd96238d1e6c97575fccbc7c0f34a36368/core-0.8.5.8.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.ogaclejapan.smarttablayout/library/1.6.1/ccc0117cbcc523f7c4b91da356321923ea0085eb/library-1.6.1.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.ogaclejapan.smarttablayout/utils-v4/1.6.1/3ef839793cd445c19c978059c0d44ef9e9cbf18a/utils-v4-1.6.1.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/io.nlopez.smartadapters/library/1.3.1/71f1c4b58d1fda46d08e42b5861bfcea7670e13/library-1.3.1.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.readystatesoftware.systembartint/systembartint/1.0.3/de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287/systembartint-1.0.3.jar:/Users/hehao/.gradle/caches/modules-2/files-2.1/cn.bingoogolapple/bga-badgeview/1.0.2/23a6304b61213a36c9a2b46e496c7fe77d757e74/bga-badgeview-1.0.2.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.github.glassLake/SuperAdapter/1.0.0/1243d8e7b510d1efe15e6e9c7901f17d8292130/SuperAdapter-1.0.0.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.github.thepacific/adapter/1.0.5/7c80325546e960163e8d1edb0afd010011162a6b/adapter-1.0.5.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.akexorcist/RoundCornerProgressBar/2.0.3/66f250a83b49c9c14757f2129d3a2454f9a252c8/RoundCornerProgressBar-2.0.3.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/cn.pedant.sweetalert/library/1.3/4d87f52c453faf689c87371ffa33316b8c0748f2/library-1.3.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/gun0912.ted/tedbottompicker/1.0.3/9aaeb4587ee15745b82f6cde60b6d34891ca624d/tedbottompicker-1.0.3.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.umeng.analytics/analytics/6.0.4/27238b0acdc4e764623a653d5776488783e9ae3f/analytics-6.0.4.jar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.prolificinteractive/material-calendarview/1.4.0/efc1b2b81140258f6560844472e832e2ac82ede7/material-calendarview-1.4.0.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.wdullaer/materialdatetimepicker/2.5.0/8f547071e32a2e3fb7bc5320e708e7f42642acc/materialdatetimepicker-2.5.0.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.kevin/pulltorefresh/1.0.8/22275b05c1a31e6e908df893dcd66e6e5d3de8e5/pulltorefresh-1.0.8.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.github.piasy/safelyandroid/1.2.0/dae4fe6872f4b3770417e2e6bd6bbbd81575297c/safelyandroid-1.2.0.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.ldoublem.loadingview/loadingviewlib/0.0.1/6f1040e48cbc6f6ea5002fdfa494f3770dc227b1/loadingviewlib-0.0.1.aar:/Users/hehao/Desktop/android/Limi/PushSDK/build/outputs/aar/PushSDK-release.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/org.glassfish/javax.annotation/10.0-b28/30eb3b3cc9cb0863a4edaea5a7575f8ace1b96ba/javax.annotation-10.0-b28.jar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger-producers/2.0-beta/80276338d1c2542ebebac542b535d1ecd48a3fd7/dagger-producers-2.0-beta.jar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.zhy/autolayout/1.4.3/7babae3f380abaa8744be292f9a947515838be47/autolayout-1.4.3.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.orhanobut/logger/1.11/6008ead6f25aa74615f9deaa890b50e0f3799067/logger-1.11.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar:/Users/hehao/.gradle/caches/modules-2/files-2.1/me.zhanghai.android.materialprogressbar/library/1.1.5/afbd308dd929885b239f90e170d9b88ed292bc07/library-1.1.5.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.pnikosis/materialish-progress/1.0/b1898820717b3bb087e268893b5f5c34681c77c5/materialish-progress-1.0.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.5/ece7b5d0870e66d8226dab6dcf47a2b12afff061/rxjava-1.1.5.jar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar:/Users/hehao/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar:/Users/hehao/Library/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/24.2.0/appcompat-v7-24.2.0.aar:/Users/hehao/Library/Android/sdk/extras/android/m2repository/com/android/support/design/24.2.0/design-24.2.0.aar:/Users/hehao/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/24.2.0/support-v4-24.2.0.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.android.support/support-compat/24.2.0/a837404f28f101f2916aa9aa52ee69f66ea3896a/support-compat-24.2.0.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.android.support/support-core-utils/24.2.0/221d118dd4764d3bb968ac463e52f5d6627dd663/support-core-utils-24.2.0.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.android.support/support-media-compat/24.2.0/8a3ea4e6733e4481608c88887b8a75c29491524b/support-media-compat-24.2.0.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.android.support/support-core-ui/24.2.0/d86b936e8785254b2dd0bd75216bd3093b547a87/support-core-ui-24.2.0.aar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/24.2.0/a0d92cf8eedde2315aef4c6af6b7238690d9b461/support-fragment-24.2.0.aar:/Users/hehao/Library/Android/sdk/extras/android/m2repository/com/android/support/support-vector-drawable/24.2.0/support-vector-drawable-24.2.0.aar:/Users/hehao/Library/Android/sdk/extras/android/m2repository/com/android/support/animated-vector-drawable/24.2.0/animated-vector-drawable-24.2.0.aar:/Users/hehao/Library/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/24.2.0/recyclerview-v7-24.2.0.aar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/me.zhanghai.android.materialprogressbar/library/1.1.5/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.squareup.sqlbrite/sqlbrite/0.5.0/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/cn.bingoogolapple/bga-badgeview/1.0.2/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.prolificinteractive/material-calendarview/1.4.0/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.3.0/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/Limi/PushSDK/unspecified/jars/libs/com.umeng.message_v3.0.1.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.bigkoo/svprogresshud/1.0.6/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.ogaclejapan.smarttablayout/library/1.6.1/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.squareup.haha/haha/1.1/b7b2e61ee1ad2d1ac6ae3122de9c940fb0d0e635/haha-1.1.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.bartoszlipinski.recyclerviewheader/library/1.2.0/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.0/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.yqritc/recyclerview-flexibledivider/1.2.9/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.1.0/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.ogaclejapan.smarttablayout/utils-v4/1.6.1/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.wdullaer/materialdatetimepicker/2.5.0/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/Limi/PushSDK/unspecified/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.antfortune.freeline/runtime/0.8.3/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/io.nlopez.smartadapters/library/1.3.1/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/Limi/PushSDK/unspecified/jars/libs/utdid4all-1.1.5_proguard.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.8/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.github.glassLake/SuperAdapter/1.0.0/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.ldoublem.loadingview/loadingviewlib/0.0.1/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.github.thepacific/adapter/1.0.5/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.zhy/autolayout/1.4.3/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/Limi/library/unspecified/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.kevin/pulltorefresh/1.0.8/jars/classes.jar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-watcher/1.3/632482a61ad24b7ec864072945d221369f9a606/leakcanary-watcher-1.3.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.pnikosis/materialish-progress/1.0/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/jp.wasabeef/glide-transformations/2.0.1/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.akexorcist/RoundCornerProgressBar/2.0.3/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.orhanobut/logger/1.11/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/gun0912.ted/tedbottompicker/1.0.3/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.3/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar:/Users/hehao/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-analyzer/1.3/c5399b18a672f7973c8a9b9d6b731a3a36e590cc/leakcanary-analyzer-1.3.jar:/Users/hehao/Desktop/android/Limi/app/build/intermediates/exploded-aar/com.github.piasy/safelyandroid/1.2.0/jars/classes.jar"
+        }
+    },
+    "apt_libraries": {
+        "dagger": true,
+        "butterknife": true
+    },
+    "auto_dependency": true,
+    "build_cache_dir": "/Users/hehao/Desktop/android/Limi/app/build/freeline",
+    "build_directory": "/Users/hehao/Desktop/android/Limi/app/build",
+    "build_script": "./gradlew :app:assembleWandoujiaDebug",
+    "build_script_work_directory": "",
+    "build_tools_directory": "/Users/hehao/Library/Android/sdk/build-tools/23.0.3",
+    "build_tools_version": "23.0.3",
+    "compile_sdk_directory": "/Users/hehao/Library/Android/sdk/platforms/android-23",
+    "compile_sdk_version": "android-23",
+    "databinding": [
+        
+    ],
+    "databinding_compiler_jar": "",
+    "databinding_modules": [
+        
+    ],
+    "debug_package": "com.limi88.financialplanner",
+    "exclude_dep_res_paths": [
+        
+    ],
+    "extra_dep_res_paths": [
+        
+    ],
+    "freeline_cache_dir": "/Users/hehao/Desktop/android/Limi",
+    "freeline_gradle_plugin_version": "0.8.3",
+    "java_home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home",
+    "launcher": "com.limi88.financialplanner.ui.splash.WelcomeActivity",
+    "main_assets_directory": [
+        "/Users/hehao/Desktop/android/Limi/app/src/wandoujiaDebug/assets",
+        "/Users/hehao/Desktop/android/Limi/app/src/debug/assets",
+        "/Users/hehao/Desktop/android/Limi/app/src/wandoujia/assets",
+        "/Users/hehao/Desktop/android/Limi/app/src/main/assets"
+    ],
+    "main_jniLibs_directory": [
+        "/Users/hehao/Desktop/android/Limi/app/src/wandoujiaDebug/jniLibs",
+        "/Users/hehao/Desktop/android/Limi/app/src/debug/jniLibs",
+        "/Users/hehao/Desktop/android/Limi/app/src/wandoujia/jniLibs",
+        "/Users/hehao/Desktop/android/Limi/app/src/main/jniLibs"
+    ],
+    "main_jni_directory": [
+        "/Users/hehao/Desktop/android/Limi/app/src/wandoujiaDebug/jni",
+        "/Users/hehao/Desktop/android/Limi/app/src/debug/jni",
+        "/Users/hehao/Desktop/android/Limi/app/src/wandoujia/jni",
+        "/Users/hehao/Desktop/android/Limi/app/src/main/jni"
+    ],
+    "main_manifest_path": "/Users/hehao/Desktop/android/Limi/app/src/main/AndroidManifest.xml",
+    "main_project_dir": "app",
+    "main_project_name": "app",
+    "main_r_path": "/Users/hehao/Desktop/android/Limi/app/build/generated/source/r/wandoujia/debug/R.java",
+    "main_res_directory": [
+        "/Users/hehao/Desktop/android/Limi/app/src/wandoujiaDebug/res",
+        "/Users/hehao/Desktop/android/Limi/app/src/debug/res",
+        "/Users/hehao/Desktop/android/Limi/app/src/wandoujia/res",
+        "/Users/hehao/Desktop/android/Limi/app/src/main/res"
+    ],
+    "main_src_directory": [
+        "/Users/hehao/Desktop/android/Limi/app/src/wandoujiaDebug/java",
+        "/Users/hehao/Desktop/android/Limi/app/src/debug/java",
+        "/Users/hehao/Desktop/android/Limi/app/src/wandoujia/java",
+        "/Users/hehao/Desktop/android/Limi/app/src/main/java",
+        "/Users/hehao/Desktop/android/Limi/app/src/main/java-gen"
+    ],
+    "module_dependencies": {
+        "PushSDK": [
+            
+        ],
+        "app": [
+            "library",
+            "PushSDK"
+        ],
+        "library": [
+            
+        ]
+    },
+    "modules": [
+        {
+            "name": "app",
+            "path": "/Users/hehao/Desktop/android/Limi/app"
+        },
+        {
+            "name": "library",
+            "path": "/Users/hehao/Desktop/android/Limi/library"
+        },
+        {
+            "name": "PushSDK",
+            "path": "/Users/hehao/Desktop/android/Limi/PushSDK"
+        }
+    ],
+    "package": "com.limi88.financialplanner",
+    "product_flavor": "wandoujia",
+    "project_source_sets": {
+        "PushSDK": {
+            "main_assets_directory": [
+                "/Users/hehao/Desktop/android/Limi/PushSDK/build-types/release/assets",
+                "/Users/hehao/Desktop/android/Limi/PushSDK/assets"
+            ],
+            "main_jniLibs_directory": [
+                "/Users/hehao/Desktop/android/Limi/PushSDK/build-types/release/jniLibs",
+                "/Users/hehao/Desktop/android/Limi/PushSDK/libs"
+            ],
+            "main_jni_directory": [
+                "/Users/hehao/Desktop/android/Limi/PushSDK/build-types/release/jni",
+                "/Users/hehao/Desktop/android/Limi/PushSDK/src/main/jni"
+            ],
+            "main_manifest_path": "/Users/hehao/Desktop/android/Limi/PushSDK/AndroidManifest.xml",
+            "main_res_directory": [
+                "/Users/hehao/Desktop/android/Limi/PushSDK/build-types/release/res",
+                "/Users/hehao/Desktop/android/Limi/PushSDK/res"
+            ],
+            "main_src_directory": [
+                "/Users/hehao/Desktop/android/Limi/PushSDK/build-types/release/java",
+                "/Users/hehao/Desktop/android/Limi/PushSDK/src"
+            ]
+        },
+        "app": {
+            "main_assets_directory": [
+                "/Users/hehao/Desktop/android/Limi/app/src/wandoujiaDebug/assets",
+                "/Users/hehao/Desktop/android/Limi/app/src/debug/assets",
+                "/Users/hehao/Desktop/android/Limi/app/src/wandoujia/assets",
+                "/Users/hehao/Desktop/android/Limi/app/src/main/assets"
+            ],
+            "main_jniLibs_directory": [
+                "/Users/hehao/Desktop/android/Limi/app/src/wandoujiaDebug/jniLibs",
+                "/Users/hehao/Desktop/android/Limi/app/src/debug/jniLibs",
+                "/Users/hehao/Desktop/android/Limi/app/src/wandoujia/jniLibs",
+                "/Users/hehao/Desktop/android/Limi/app/src/main/jniLibs"
+            ],
+            "main_jni_directory": [
+                "/Users/hehao/Desktop/android/Limi/app/src/wandoujiaDebug/jni",
+                "/Users/hehao/Desktop/android/Limi/app/src/debug/jni",
+                "/Users/hehao/Desktop/android/Limi/app/src/wandoujia/jni",
+                "/Users/hehao/Desktop/android/Limi/app/src/main/jni"
+            ],
+            "main_manifest_path": "/Users/hehao/Desktop/android/Limi/app/src/main/AndroidManifest.xml",
+            "main_res_directory": [
+                "/Users/hehao/Desktop/android/Limi/app/src/wandoujiaDebug/res",
+                "/Users/hehao/Desktop/android/Limi/app/src/debug/res",
+                "/Users/hehao/Desktop/android/Limi/app/src/wandoujia/res",
+                "/Users/hehao/Desktop/android/Limi/app/src/main/res"
+            ],
+            "main_src_directory": [
+                "/Users/hehao/Desktop/android/Limi/app/src/wandoujiaDebug/java",
+                "/Users/hehao/Desktop/android/Limi/app/src/debug/java",
+                "/Users/hehao/Desktop/android/Limi/app/src/wandoujia/java",
+                "/Users/hehao/Desktop/android/Limi/app/src/main/java",
+                "/Users/hehao/Desktop/android/Limi/app/src/main/java-gen"
+            ]
+        },
+        "library": {
+            "main_assets_directory": [
+                "/Users/hehao/Desktop/android/Limi/library/src/release/assets",
+                "/Users/hehao/Desktop/android/Limi/library/src/main/assets"
+            ],
+            "main_jniLibs_directory": [
+                "/Users/hehao/Desktop/android/Limi/library/src/release/jniLibs",
+                "/Users/hehao/Desktop/android/Limi/library/src/main/jniLibs"
+            ],
+            "main_jni_directory": [
+                "/Users/hehao/Desktop/android/Limi/library/src/release/jni",
+                "/Users/hehao/Desktop/android/Limi/library/src/main/jni"
+            ],
+            "main_manifest_path": "/Users/hehao/Desktop/android/Limi/library/src/main/AndroidManifest.xml",
+            "main_res_directory": [
+                "/Users/hehao/Desktop/android/Limi/library/src/release/res",
+                "/Users/hehao/Desktop/android/Limi/library/src/main/res"
+            ],
+            "main_src_directory": [
+                "/Users/hehao/Desktop/android/Limi/library/src/release/java",
+                "/Users/hehao/Desktop/android/Limi/library/src/main/java"
+            ]
+        }
+    },
+    "project_type": "gradle",
+    "retrolambda": {
+        "app": {
+            "enabled": true,
+            "mainClass": "net.orfjackal.retrolambda.Main",
+            "rtJar": "/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar",
+            "supportIncludeFiles": true,
+            "targetJar": "/Users/hehao/.gradle/caches/modules-2/files-2.1/net.orfjackal.retrolambda/retrolambda/2.1.0/6b764ee7bcfa99627f12d0b051f4640b5725178f/retrolambda-2.1.0.jar"
+        }
+    },
+    "root_dir": "/Users/hehao/Desktop/android/Limi",
+    "sdk_directory": "/Users/hehao/Library/Android/sdk",
+    "use_jdk8": false
+}

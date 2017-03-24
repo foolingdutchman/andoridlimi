@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/color_pale">
+    <RelativeLayout
+        android:background="@color/color_white"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="确定"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColor="@color/color_blue100"
+            android:id="@+id/tv_gender_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <com.limi88.financialplanner.ui.widget.MyScrollPickerView
+        android:id="@+id/msp_gender"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

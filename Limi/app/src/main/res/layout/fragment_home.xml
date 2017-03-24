@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/common_header"/>
+
+        <RelativeLayout
+            android:id="@+id/ll_float_tab"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="@color/color_black"
+            android:visibility="gone"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/color_white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_home_showTop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@mipmap/ic_home_sub_back"/>
+
+                <com.ogaclejapan.smarttablayout.SmartTabLayout
+                    android:id="@+id/homepager_float_tab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_white"
+                    app:stl_customTabTextLayoutId="@layout/home_sub_tab2"
+                    app:stl_customTabTextViewId="@id/custom_text"
+                    app:stl_dividerColor="@color/transparent"
+                    app:stl_indicatorColor="@color/transparent"
+                    app:stl_indicatorInterpolation="linear"
+                    app:stl_indicatorThickness="0dp"
+                    app:stl_underlineThickness="0dp"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:focusable="false"
+                android:background="@mipmap/home_sub_shadow_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"/>
+
+            <ImageView
+                android:focusable="false"
+                android:background="@mipmap/bg_home_sub_shadow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:src="@mipmap/dev_common_bottom_line"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:src="@mipmap/dev_common_bottom_line"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/home_top_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.handmark.pulltorefresh.library.extras.recyclerview.PullToRefreshRecyclerView
+                android:id="@+id/prv_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+        <!--<LinearLayout-->
+        <!--android:orientation="vertical"-->
+        <!--android:id="@+id/home_bottom_container"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<RelativeLayout-->
+        <!--android:background="@color/color_white"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="44dp">-->
+        <!--<LinearLayout-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+        <!--<ImageView-->
+        <!--android:id="@+id/iv_home_showTop"-->
+        <!--android:layout_marginLeft="17dp"-->
+        <!--android:layout_marginRight="14dp"-->
+        <!--android:visibility="gone"-->
+        <!--android:src="@mipmap/ic_home_sub_back"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+        <!--<com.ogaclejapan.smarttablayout.SmartTabLayout-->
+        <!--android:id="@+id/homepager_tab"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@color/color_white"-->
+        <!--app:stl_customTabTextLayoutId="@layout/home_sub_tab"-->
+        <!--app:stl_customTabTextViewId="@id/custom_text"-->
+        <!--app:stl_indicatorColor="@color/transparent"-->
+        <!--app:stl_indicatorInterpolation="linear"-->
+        <!--app:stl_indicatorThickness="0dp"-->
+        <!--app:stl_distributeEvenly="true"-->
+        <!--app:stl_dividerColor="@color/transparent"-->
+        <!--app:stl_underlineThickness="0dp"/>-->
+
+        <!--</LinearLayout>-->
+        <!--<ImageView-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:src="@mipmap/dev_common_bottom_line"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"/>-->
+        <!--<ImageView-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:src="@mipmap/dev_common_bottom_line"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"/>-->
+        <!--</RelativeLayout>-->
+
+        <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/vp_home_page"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+        <!--</LinearLayout>-->
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/iv_home_shadow"
+        android:focusable="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/bg_titlebar_shadow"/>
+
+
+    <LinearLayout
+        android:id="@+id/ll_errorview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/bg_error_hint"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="似乎已经与互联网失去了链接"
+            android:textSize="13sp"/>
+
+        <ImageView
+            android:id="@+id/iv_error_reload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:src="@mipmap/ic_error_btn"/>
+    </LinearLayout>
+
+    <!--<WebView-->
+    <!--android:id="@+id/wv_home"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--</WebView>-->
+
+</RelativeLayout>

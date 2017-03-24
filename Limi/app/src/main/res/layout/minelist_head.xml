@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="10dp"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_mine_profile_height"
+        android:background="@color/color_white">
+
+        <RelativeLayout
+            android:layout_marginTop="26dp"
+            android:id="@+id/rl_me_icon"
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+           android:layout_centerHorizontal="true"
+            android:layout_marginBottom="6dp"
+            android:background="@mipmap/ic_me_bg">
+
+            <ImageView
+                android:id="@+id/iv_me_icon"
+                android:layout_width="@dimen/fragment_me_icon_width"
+                android:layout_height="@dimen/fragment_me_icon_height"
+                android:layout_centerInParent="true"
+                android:layout_margin="3dp"/>
+            <ImageView
+                android:src="@mipmap/ic_lme_logo_auth"
+                android:id="@+id/iv_logo_auth"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_me_icon"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:textSize="16sp"
+                android:textColor="#585858"
+                android:id="@+id/tv_me_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="未设置"/>
+
+            <ImageView
+                android:id="@+id/iv_me_2Dcode"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="4dp"
+                android:background="@mipmap/ic_2dcode"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_alignParentTop="true"
+                android:src="@mipmap/dev_mw_head_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:clickable="true"
+                    android:id="@+id/ll_card_btn"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_marginRight="8dp"
+                        android:src="@mipmap/ic_me_card_v2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:text="@string/me_card"
+                        android:textSize="15sp"
+                        android:textColor="#575757"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/common_item_mediu_padding"
+                    android:layout_marginTop="@dimen/common_item_mediu_padding"
+                    android:src="@mipmap/dev_product_line" />
+                <LinearLayout
+                    android:clickable="true"
+                    android:id="@+id/ll_favor_btn"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_marginRight="8dp"
+                        android:src="@mipmap/ic_me_favor_v2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:text="@string/me_favor"
+                        android:textSize="15sp"
+                        android:textColor="#575757"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

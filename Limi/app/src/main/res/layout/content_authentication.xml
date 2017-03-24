@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.limi88.financialplanner.ui.authentication.AuthenticationActivity"
+    tools:showIn="@layout/activity_authentication">
+    <include layout="@layout/common_header"/>
+    <LinearLayout
+        android:background="@color/color_white"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:text="手机号"
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:id="@+id/et_phone"
+            android:hint="请输入手机号"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/color_white"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:text="验证码"
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:id="@+id/et_code"
+            android:hint="请输入验证码"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:text="发送验证码"
+            android:id="@+id/btn_send_auth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:text="确定"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

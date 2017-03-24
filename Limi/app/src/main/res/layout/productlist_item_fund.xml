@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="10dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/home_trust_item_height"
+            android:background="@color/color_white">
+
+            <TextView
+                android:id="@+id/tv_grade"
+                android:layout_width="@dimen/product_level_tag_width"
+                android:layout_height="@dimen/product_level_tag_height"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/ic_home_trust_grade"
+                android:gravity="right"
+                android:padding="3dp"
+                android:text=""
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/font_size_small" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/activity_horizontal_margin"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_home_trust_item_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxEms="10"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/color_black"
+                        android:textSize="@dimen/font_size_normal" />
+
+                    <TextView
+                        android:id="@+id/home_trust_tag1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/common_item_small_padding"
+                        android:background="@drawable/shape_tag_yellow"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:text=""
+                        android:textColor="@color/color_white"
+                        android:textSize="@dimen/font_size_small"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/home_trust_tag2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/shape_tag_red"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:text=""
+                        android:textColor="@color/color_white"
+                        android:textSize="@dimen/font_size_small"
+                        android:visibility="gone" />
+                    <TextView
+                        android:id="@+id/home_trust_tag3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/shape_tag_blue"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:text="1"
+                        android:textColor="@color/color_white"
+                        android:textSize="@dimen/font_size_small"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tv_home_trust_item_area"
+                        android:gravity="center_vertical|right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:layout_marginRight="@dimen/product_area_padding_right"
+                        android:textColor="@color/color_black"
+                        android:textSize="@dimen/font_size_medium" />
+
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/dev_common_bottom_line"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="@dimen/activity_horizontal_margin"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/fund_min_munber"
+                            android:textSize="@dimen/font_size_small" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/activity_horizontal_margin"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_home_turst_reward_min"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="@color/color_black"
+                                android:textSize="@dimen/font_size_extreme" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@mipmap/dev_home_hotitem" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@mipmap/ic_fund_bg1" />
+
+                            <TextView
+                                android:id="@+id/tv_home_trust_min_invest"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="起投金额100万"
+                                android:textSize="@dimen/font_size_medium" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@mipmap/ic_fund_bg2" />
+
+                            <TextView
+                                android:id="@+id/tv_home_trust_period"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="投资周期12个月"
+                                android:textSize="@dimen/font_size_medium" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@mipmap/ic_fund_bg3" />
+
+                            <TextView
+                                android:id="@+id/tv_home_trust_charge_perc"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="佣金比例认证可见"
+                                android:textSize="@dimen/font_size_medium"  />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+

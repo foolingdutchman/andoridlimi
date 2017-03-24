@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:background="@color/color_white"
+              android:paddingTop="12dp"
+              android:paddingLeft="11dp"
+              android:paddingRight="14dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+<ImageView
+    android:scaleType="fitXY"
+    android:id="@+id/iv_home_sub_thumb"
+    android:src="@mipmap/ic_default_logo"
+    android:layout_width="107dp"
+    android:layout_height="80dp"/>
+    <RelativeLayout
+        android:layout_marginLeft="11dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="草帽图细说人生，看完就知道我们为什么需要保险"
+            android:textSize="17sp"
+            android:textColor="#343434"
+            android:id="@+id/tv_home_sub_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="#ACACAC"
+                android:textSize="@dimen/font_size_small"
+                android:id="@+id/tv_item_cat"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="保险早餐"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textColor="#ACACAC"
+                android:textSize="@dimen/font_size_small"
+                android:id="@+id/tv_item_time"
+                android:text="1小时之前"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

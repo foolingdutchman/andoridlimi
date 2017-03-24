@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.limi88.financialplanner.ui.splash.PromotionActivity">
+
+
+<LinearLayout
+    android:background="#F9F9F9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/iv_ad"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="#F9F9F9"
+        android:layout_width="match_parent"
+        android:layout_height="128dp">
+        <ImageView
+            android:src="@mipmap/bg_promotion_bottom"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/iv_skip"
+        android:onClick="skip"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/ic_promotion_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

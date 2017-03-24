@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <include layout="@layout/common_header"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_prag1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="@string/prag1"
+                android:textSize="@dimen/font_size_medium"/>
+
+            <TextView
+                android:id="@+id/tv_content11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="@string/content11"
+                android:textSize="@dimen/font_size_small"/>
+
+            <TextView
+                android:id="@+id/tv_content12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="@string/content12"
+                android:textSize="@dimen/font_size_small"/>
+
+            <TextView
+                android:text="@string/content13"
+                android:id="@+id/tv_content13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:textSize="@dimen/font_size_small"/>
+
+            <TextView
+                android:id="@+id/tv_content14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="@string/content14"
+                android:textSize="@dimen/font_size_small"/>
+
+            <TextView
+                android:id="@+id/tv_prag2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="@string/prag2"
+                android:textSize="@dimen/font_size_medium"/>
+
+            <TextView
+                android:id="@+id/tv_content21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="@string/content21"
+                android:textSize="@dimen/font_size_small"/>
+
+
+            <TextView
+                android:id="@+id/tv_content22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="@string/content22"
+                android:textSize="@dimen/font_size_small"/>
+
+            <TextView
+                android:id="@+id/tv_content221"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="@string/content221"
+                android:textSize="@dimen/font_size_small"/>
+
+            <TextView
+                android:id="@+id/tv_content222"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="@string/content222"
+                android:textSize="@dimen/font_size_small"/>
+
+            <TextView
+                android:id="@+id/tv_content223"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="@string/content223"
+                android:textSize="@dimen/font_size_small"/>
+
+            <TextView
+                android:id="@+id/tv_content224"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="@string/content224"
+                android:textSize="@dimen/font_size_small"/>
+
+            <TextView
+                android:id="@+id/tv_content225"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="@string/content225"/>
+
+            <TextView
+                android:id="@+id/tv_content23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="@string/content23"
+                android:textSize="@dimen/font_size_small"/>
+
+            <TextView
+                android:id="@+id/tv_content24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="@string/content24"/>
+
+            <TextView
+                android:id="@+id/tv_content25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="@string/content25"
+                android:textSize="@dimen/font_size_small"/>
+
+
+            <TextView
+                android:id="@+id/tv_prag3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="@string/prag3"
+                android:textSize="@dimen/font_size_medium"/>
+
+            <TextView
+                android:id="@+id/tv_content3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="@string/content3"
+                android:textSize="@dimen/font_size_small"/>
+
+            <TextView
+                android:id="@+id/tv_prag4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="@string/prag4"/>
+
+            <TextView
+                android:id="@+id/tv_content4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="@string/content4"
+                android:textSize="@dimen/font_size_small"/>
+
+            <TextView
+                android:id="@+id/tv_prag5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="@string/prag5"
+                android:textSize="@dimen/font_size_medium"/>
+
+            <TextView
+                android:id="@+id/tv_content51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="@string/content51"
+                android:textSize="@dimen/font_size_small"/>
+
+            <TextView
+                android:id="@+id/tv_content52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="@string/content52"
+                android:textSize="@dimen/font_size_small"/>
+
+            <TextView
+                android:id="@+id/tv_content53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="@string/content53"
+                android:textSize="@dimen/font_size_small"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorPrimary"
+              android:orientation="vertical">
+
+    <include layout="@layout/common_header"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_white"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="*"
+                            android:textColor="@color/warnning_red"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" 意见反馈"
+                            android:textColor="@color/color_black"/>
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/et_feedtext"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/y14"
+                        android:background="@drawable/bg_et_feedback_normal"
+                        android:gravity="left|top"
+                        android:hint="请描述使用过程中遇到的问题和意见"
+                        android:imeOptions="actionDone"
+                        android:minLines="1"
+                        android:textColorHint="@color/font_color_suggestion"
+                        android:textSize="15sp"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="*"
+                            android:textColor="@color/warnning_red"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" 联系方式"
+                            android:textColor="@color/color_black"/>
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/et_contact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/y14"
+                        android:background="@drawable/bg_et_feedback_selecor"
+                        android:hint="请输入你的手机号"
+                        android:imeOptions="actionDone"
+                        android:inputType="text"
+                        android:textColorHint="@color/font_color_suggestion"
+                        android:textSize="15sp"
+                        />
+
+                    <LinearLayout
+                        android:id="@+id/ll_warnning"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:visibility="invisible">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="你输入的手机号格式错误"
+                            android:textColor="@color/warnning_red"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/ic_feedback_warning"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/bg_feedback_btn_selector"
+                android:text="提交"
+                android:textColor="@color/color_white"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
